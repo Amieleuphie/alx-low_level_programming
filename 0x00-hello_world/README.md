@@ -1,1 +1,1 @@
-moving 101-quote.c
+adding 101-quote.c
