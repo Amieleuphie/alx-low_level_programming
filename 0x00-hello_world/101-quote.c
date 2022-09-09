@@ -1,12 +1,13 @@
 #include <stdio.h>
-#include <unistd>
+#include <string.h>
+#include <unistd.h>
 /**
-* main - print quote
-* Description: prints Dora's quote
-* Return: Always 1 (Success)
+* main - main block
+* Return: 1
 */
 int main(void)
 {
-write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+int s = strlen("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", s);
 return (1);
 }

@@ -1,1 +1,1 @@
-adding 101-quote.c
+bashing 101-quote.c
